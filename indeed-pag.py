@@ -112,7 +112,7 @@ start_url = "https://pk.indeed.com/jobs?q=computer+operator&l=Lahore&from=search
 csvData = scrape_all_pages(driver, start_url)
 driver.quit()
 
-with open("indeed-pag-jobs.csv", "w", newline="") as file:
+with open("indeed-jobs.csv", "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerow(["Title", "Company Name", "Company Location", "Salary", "Type", "Dec", "Posted"])
     for job in csvData:
@@ -126,5 +126,5 @@ with open("indeed-pag-jobs.csv", "w", newline="") as file:
             job['posted']
         ])
 
-with open("indeed-pag-jobs.json", "w") as json_file:
+with open("indeed-jobs.json", "w") as json_file:
     json.dump(csvData, json_file, indent=4)

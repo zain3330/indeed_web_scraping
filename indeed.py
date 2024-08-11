@@ -73,7 +73,8 @@ def extract_job_details(job):
         # job des section
         jobDesSection =jobFooter.find("div", class_="css-9446fg eu4oa1w0")
         # job des
-        jobDes =jobDesSection.text.strip()
+        jobDes = jobDesSection.text.split("\n")
+        jobDes = [line.strip() for line in jobDes if line.strip()]
         #  job posted  time
         jobPostedTime =jobFooter.find("span" , {"data-testid": "myJobsStateDate"})
         # job posted time text
@@ -105,6 +106,10 @@ def extract_job_details(job):
         # find job type
         jobTypeElement = jobTypeSalarySection.find("div", class_="metadata css-5zy3wz eu4oa1w0")
         jobType = jobTypeElement.find("div", {"data-testid": "attribute_snippet_testid"}).text.strip() if jobTypeElement else None
+
+        #job detail
+        # jobClickUrl =jobTitleElement.find("a", class_="jcs-JobTitle css-jspxzf eu4oa1w0").get("href")
+        # print(jobClickUrl)
 
         return {
             "title": jobTitle,
