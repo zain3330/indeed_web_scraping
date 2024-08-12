@@ -6,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from db_connection import connect_to_database
 
 
 def init():
@@ -118,7 +119,7 @@ def extract_job_details(job):
             "companyLocation": companyLocation,
             "jobSalary": jobSalary,
             "type": jobType,
-            "dec":jobDes,
+            "dec": ' '.join(jobDes),
             "posted": jobPostedTimeText,
         }
 
@@ -162,6 +163,28 @@ with open("indeed-jobs.csv", "w", newline="") as file:
             job['posted']
         ]
         )
+# insert data in mysql
+connection = connect_to_database()  # Use your existing connection function
+cursor = connection.cursor()
+insert_query = '''
+        INSERT INTO indeed (title, company_name, company_location, salary, job_type, description, posted_at)
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
+    '''
+for job in csvData:
+    cursor.execute(insert_query, (
+        job['title'],
+        job['companyName'],
+        job['companyLocation'],
+        job['jobSalary'],
+        job['type'],
+        job['dec'],
+        job['posted']
+    ))
+
+connection.commit()
+cursor.close()
+connection.close()
+
 
 # Write data to JSON file
 with open("indeed-jobs.json", "w") as json_file:
