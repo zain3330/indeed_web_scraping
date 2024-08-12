@@ -51,7 +51,8 @@ def extract_job_details(job):
         tbody = jobHeader.find("tbody")
         jobFooter = jobCard.find("div", class_="heading6 tapItem-gutter css-1rgici5 eu4oa1w0")
         jobDesSection = jobFooter.find("div", class_="css-9446fg eu4oa1w0")
-        jobDes = jobDesSection.text.strip()
+        jobDes = jobDesSection.text.split("\n")
+        jobDes = [line.strip() for line in jobDes if line.strip()]
         jobPostedTime = jobFooter.find("span", {"data-testid": "myJobsStateDate"}).text.strip()
         jobLocation = jobHeader.find("div", class_="company_location css-17fky0v e37uo190")
         companyName = jobLocation.find("span", {"data-testid": "company-name"}).text.strip()

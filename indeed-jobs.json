@@ -1,16 +1,5 @@
 [
     {
-        "title": "Web Application Developer",
-        "companyName": "Search O Pal",
-        "companyLocation": "Lahore",
-        "jobSalary": null,
-        "type": null,
-        "dec": [
-            "*WE NEED FRESHERS ONLY Let\u2019s grow together:* We use modern frameworks and platforms like Flutter and Bubble.io. We will be providing the required\u2026"
-        ],
-        "posted": "PostedPosted 2 days ago"
-    },
-    {
         "title": "Junior PHP Developer",
         "companyName": "AA Web Solutions Pvt Ltd",
         "companyLocation": "Lahore",
@@ -19,6 +8,17 @@
         "dec": [
             "Demonstrable knowledge of web technologies including HTML, CSS, JavaScript, AJAX, etc.",
             "Good knowledge of relational databases, version control tools i.e., Git,\u2026"
+        ],
+        "posted": "EmployerActive 3 days ago"
+    },
+    {
+        "title": "Web Application Developer",
+        "companyName": "Search O Pal",
+        "companyLocation": "Lahore",
+        "jobSalary": null,
+        "type": null,
+        "dec": [
+            "*WE NEED FRESHERS ONLY Let\u2019s grow together:* We use modern frameworks and platforms like Flutter and Bubble.io. We will be providing the required\u2026"
         ],
         "posted": "EmployerActive 2 days ago"
     },
@@ -44,18 +44,6 @@
             "Optimize components for maximum performance across a vast array of web-capable devices and browsers.",
             "As a frontend developer, you will be responsible for\u2026"
         ],
-        "posted": "EmployerActive 2 days ago"
-    },
-    {
-        "title": "Front-End Developer",
-        "companyName": "Code Red Technologies",
-        "companyLocation": "Lahore",
-        "jobSalary": null,
-        "type": "Full-time",
-        "dec": [
-            "Develop and maintain user interfaces for web applications.",
-            "Collaborate with back-end developers and designers to improve usability."
-        ],
         "posted": "EmployerActive 3 days ago"
     },
     {
@@ -68,19 +56,55 @@
             "Collaborate with designers and backend developers to create seamless web applications.",
             "Proficient understanding of web markup, including HTML5 and CSS3."
         ],
-        "posted": "EmployerActive 23 days ago"
+        "posted": "EmployerActive 24 days ago"
     },
     {
-        "title": "Associate FrontEnd Developer (Polymer)",
-        "companyName": "Avanceon MEA",
+        "title": "[Remote] Senior ReactJS/NextJS developer",
+        "companyName": "VQode Solutions PVT. LTD.",
         "companyLocation": "Lahore",
         "jobSalary": null,
         "type": "Full-time",
         "dec": [
-            "Design and implement reusable web components based on Polymer.js principles.",
-            "Develop and maintain web applications using Polymer.js and related technologies."
+            "Work closely with our web Designer for bringing design to life.",
+            "Optimize components for maximum performance across a vast array of web-capable devices and\u2026"
         ],
-        "posted": "EmployerActive 2 days ago"
+        "posted": "PostedJust posted"
+    },
+    {
+        "title": "Front End Developer",
+        "companyName": "Click Traces (Private) Limited",
+        "companyLocation": "Lahore",
+        "jobSalary": null,
+        "type": null,
+        "dec": [
+            "You'll collaborate with various stakeholders, including clients, designers, and other developers, so clear and concise communication is key."
+        ],
+        "posted": "EmployerActive 7 days ago"
+    },
+    {
+        "title": "Front-End Developer",
+        "companyName": "Code Red Technologies",
+        "companyLocation": "Lahore",
+        "jobSalary": null,
+        "type": "Full-time",
+        "dec": [
+            "Develop and maintain user interfaces for web applications.",
+            "Collaborate with back-end developers and designers to improve usability."
+        ],
+        "posted": "EmployerActive 4 days ago"
+    },
+    {
+        "title": "Frontend WordPress Developer (Night Shift)",
+        "companyName": "Smart Placement (Pvt) Ltd",
+        "companyLocation": "Lahore",
+        "jobSalary": "Rs 21,083 - Rs 79,374 a month",
+        "type": "Full-time",
+        "dec": [
+            "Willing to develop custom web apps using WordPress.",
+            "Must have a degree in Computer Science/ Software Engineering.",
+            "Night Shift (9pm-6am) Monday-Friday."
+        ],
+        "posted": "EmployerActive 20 days ago"
     },
     {
         "title": "Front-End Developer - Male",
@@ -94,17 +118,15 @@
         "posted": "EmployerActive 2 days ago"
     },
     {
-        "title": "Frontend WordPress Developer (Night Shift)",
-        "companyName": "Smart Placement (Pvt) Ltd",
+        "title": "Web Developer",
+        "companyName": "Xtreme Technologies",
         "companyLocation": "Lahore",
-        "jobSalary": "Rs 21,083 - Rs 79,374 a month",
+        "jobSalary": "Rs 50,000 - Rs 80,000 a month",
         "type": "Full-time",
         "dec": [
-            "Willing to develop custom web apps using WordPress.",
-            "Must have a degree in Computer Science/ Software Engineering.",
-            "Night Shift (9pm-6am) Monday-Friday."
+            "We are looking for a experience WordPress/Laravel web developer who will be responsible for developing and/or designing websites for our company."
         ],
-        "posted": "EmployerActive 19 days ago"
+        "posted": "EmployerActive 2 days ago"
     },
     {
         "title": "Frontend React Developer",
@@ -116,7 +138,30 @@
             "As a frontend developer you will be responsible for converting Figma designs into Next JS TypeScript web pages.",
             "Proven work experience as a Front-end developer."
         ],
-        "posted": "EmployerActive 4 days ago"
+        "posted": "EmployerActive 5 days ago"
+    },
+    {
+        "title": "React Js. Framework Frontend Developer",
+        "companyName": "Sigi Technologies PVT LTD",
+        "companyLocation": "Lahore",
+        "jobSalary": "Rs 80,000 - Rs 120,000 a month",
+        "type": "Full-time",
+        "dec": [
+            "Collaborate with back-end developers and web designers to improve usability.",
+            "Conduct code reviews and provide constructive feedback to other developers."
+        ],
+        "posted": "EmployerActive 3 days ago"
+    },
+    {
+        "title": "Front end Developer",
+        "companyName": "Zepto Systems Limited",
+        "companyLocation": "Lahore",
+        "jobSalary": null,
+        "type": null,
+        "dec": [
+            "You will work closely with our design and development teams to translate designs into high-quality, responsive web applications."
+        ],
+        "posted": "EmployerActive 24 days ago"
     },
     {
         "title": "Senior Web Developer (Urgent Hiring)",
@@ -128,54 +173,6 @@
             "Understanding of RESTful APIs and web services.",
             "Develop, test, and maintain high-quality web applications using Laravel.",
             "PHP, Laravel: 2 years (Required)."
-        ],
-        "posted": "EmployerActive 2 days ago"
-    },
-    {
-        "title": "React Developer",
-        "companyName": "Soft Enterprise",
-        "companyLocation": "Lahore",
-        "jobSalary": null,
-        "type": null,
-        "dec": [
-            "Develop user-friendly and responsive web applications using ReactJS.",
-            "Stay up-to-date with the latest trends and technologies in web development."
-        ],
-        "posted": "EmployerActive 2 days ago"
-    },
-    {
-        "title": "Full Stack web Developer Intern",
-        "companyName": "AI Ponics pvt ltd",
-        "companyLocation": "Lahore",
-        "jobSalary": null,
-        "type": null,
-        "dec": [
-            "Familiarity with RESTful APIs and web services.",
-            "Collaborate with the development team to design, develop, and deploy web applications."
-        ],
-        "posted": "EmployerActive 3 days ago"
-    },
-    {
-        "title": "Junior Developer Intern",
-        "companyName": "Infinity Warriors",
-        "companyLocation": "Lahore",
-        "jobSalary": null,
-        "type": null,
-        "dec": [
-            "* Enhance your skills in web development.",
-            "* Collaborate with senior developers on various projects.",
-            "* 2-3 months of experience in web development."
-        ],
-        "posted": "EmployerActive 4 days ago"
-    },
-    {
-        "title": "Web Developer",
-        "companyName": "Xtreme Technologies",
-        "companyLocation": "Lahore",
-        "jobSalary": "Rs 50,000 - Rs 80,000 a month",
-        "type": "Full-time",
-        "dec": [
-            "We are looking for a experience WordPress/Laravel web developer who will be responsible for developing and/or designing websites for our company."
         ],
         "posted": "EmployerActive 3 days ago"
     }
